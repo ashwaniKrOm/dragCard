@@ -8,15 +8,15 @@ Features:-
 3. Mock Backend: Data is stored and managed using a lightweight backend powered by JSON Server.
 4. Real-Time Updates: Changes made in the UI are reflected in the backend.
 
-Clone the Repository
+##Clone the Repository
   git clone https://github.com/ashwaniKrOm/dragCard.git
 
-Set up Frontend  
+##Set up Frontend  
   cd client  
   npm install  
   npm run dev  
 
-Set up JSON Server
-  cd server
-  npm install
-  npm run server
+##Set up JSON Server
+  cd server  
+  npm install  
+  npm run server  
