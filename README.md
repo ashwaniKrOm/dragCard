@@ -11,10 +11,10 @@ Features:-
 Clone the Repository
   git clone https://github.com/ashwaniKrOm/dragCard.git
 
-Set up Frontend
-  cd client
-  npm install
-  npm run dev
+Set up Frontend  
+  cd client  
+  npm install  
+  npm run dev  
 
 Set up JSON Server
   cd server
