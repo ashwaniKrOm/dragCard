@@ -1,30 +1,22 @@
-# React + TypeScript + Vite
+# React + TypeScript + Vite + JSON Server
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DragCard is an interactive project built using React for the frontend and JSON Server for the backend. This application allows users to create customizable cards and drag them freely anywhere on the screen, providing an engaging and dynamic user experience.
 
-Currently, two official plugins are available:
+Features:-
+1. Card Creation: Users can create personalized cards with their own content.
+2. Drag-and-Drop Functionality: Move cards dynamically to any position on the screen.
+3. Mock Backend: Data is stored and managed using a lightweight backend powered by JSON Server.
+4. Real-Time Updates: Changes made in the UI are reflected in the backend.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Clone the Repository
+  git clone https://github.com/ashwaniKrOm/dragCard.git
 
-## Expanding the ESLint configuration
+Set up Frontend
+  cd client
+  npm install
+  npm run dev
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Set up JSON Server
+  cd server
+  npm install
+  npm run server
